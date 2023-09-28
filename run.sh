@@ -4,12 +4,13 @@
 export DEBIAN_FRONTEND=noninteractive
 
 if [ $# -eq 0 ]; then
-  echo 'Missing argument, provider name'
+  echo 'Missing argument, provider name & speedtest server (optional)'
   exit 1
 fi;
 
 PROVIDER=$1
-SPEEDTEST_SERVER=1774
+# choose your speedtest server by hovering over the server name in speedtest.net
+SPEEDTEST_SERVER="${2:-16326}" # default Singtel speedtest.net server ID (only if you're testing with SIN-1 servers!)
 
 swapoff -a
 
