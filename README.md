@@ -9,3 +9,5 @@ better, together.
 Licensed under the GNU General Public License v3
 
 [joshtronic]: https://joshtronic.com
+
+Tested on Ubuntu 22.04. Modified by [Kyle](https://www.linkedin.com/in/kyleyeo/).
